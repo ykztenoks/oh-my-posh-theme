@@ -192,7 +192,7 @@
           "type": "aws"
         },
         {
-          "background": "#316ce4",
+          "background": "#c03131",
           "foreground": "#ffffff",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
@@ -233,7 +233,7 @@
           "type": "battery"
         },
         {
-          "background": "#40c4ff",
+          "background": "#c73636",
           "foreground": "#ffffff",
           "invert_powerline": true,
           "leading_diamond": "\ue0b2",
@@ -253,13 +253,13 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#21c7c7",
+          "foreground": "#ce2a0d",
           "style": "plain",
           "template": "\u2570\u2500",
           "type": "text"
         },
         {
-          "foreground": "#e0f8ff",
+          "foreground": "#b66a6a",
           "foreground_templates": ["{{ if gt .Code 0 }}#ef5350{{ end }}"],
           "properties": {
             "always_enabled": true
